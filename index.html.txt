@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>DJ SET</title>
+
+  <style>
+    body {
+      background: black;
+      color: white;
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+    }
+
+    button {
+      padding: 20px 40px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>DJ SET</h1>
+
+<button onclick="document.getElementById('audio').play()">
+PLAY
+</button>
+
+<audio id="audio">
+  <source src="playlist.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
